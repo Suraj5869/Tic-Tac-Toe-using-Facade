@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|solutionrelative:tictoctoeusingfacade\\presentation\\gamegui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\tictoctoeusingfacade\\tictoctoeusingfacade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|solutionrelative:tictoctoeusingfacade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\tictoctoeusingfacade\\tictoctoeusingfacade\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|solutionrelative:tictoctoeusingfacade\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\tictoctoeusingfacade\\tictoctoeusingfacade\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|solutionrelative:tictoctoeusingfacade\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\tictoctoeusingfacade\\tictoctoeusingfacade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|solutionrelative:tictoctoeusingfacade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\tictoctoeusingfacade\\tictoctoeusingfacade\\services\\resultanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\tictoctoeusingfacade\\tictoctoeusingfacade\\models\\marktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|solutionrelative:tictoctoeusingfacade\\models\\marktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|c:\\users\\suraj\\onedrive\\desktop\\internship\\tasks\\tictoctoeusingfacade\\tictoctoeusingfacade\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F85D581-B726-4C4C-8179-196AD19D4783}|TicTocToeUsingFacade\\TicTocToeUsingFacade.csproj|solutionrelative:tictoctoeusingfacade\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +42,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Models\\Board.cs",
               "RelativeDocumentMoniker": "TicTocToeUsingFacade\\Models\\Board.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Models\\Board.cs",
               "RelativeToolTip": "TicTocToeUsingFacade\\Models\\Board.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:10:48.359Z"
+              "WhenOpened": "2024-10-19T14:10:48.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,38 +61,40 @@
               "RelativeDocumentMoniker": "TicTocToeUsingFacade\\Presentation\\GameGUI.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Presentation\\GameGUI.cs",
               "RelativeToolTip": "TicTocToeUsingFacade\\Presentation\\GameGUI.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwDQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T14:10:13.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Program.cs",
               "RelativeDocumentMoniker": "TicTocToeUsingFacade\\Program.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Program.cs",
               "RelativeToolTip": "TicTocToeUsingFacade\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:58:12.639Z"
+              "WhenOpened": "2024-10-18T08:58:12.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ResultAnalyzer.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Services\\ResultAnalyzer.cs",
               "RelativeDocumentMoniker": "TicTocToeUsingFacade\\Services\\ResultAnalyzer.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Services\\ResultAnalyzer.cs",
               "RelativeToolTip": "TicTocToeUsingFacade\\Services\\ResultAnalyzer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwBUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:11:14.146Z"
+              "WhenOpened": "2024-10-19T14:11:14.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Models\\Player.cs",
               "RelativeDocumentMoniker": "TicTocToeUsingFacade\\Models\\Player.cs",
@@ -99,23 +102,25 @@
               "RelativeToolTip": "TicTocToeUsingFacade\\Models\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:11:01.242Z"
+              "WhenOpened": "2024-10-19T14:11:01.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Cell.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Models\\Cell.cs",
               "RelativeDocumentMoniker": "TicTocToeUsingFacade\\Models\\Cell.cs",
               "ToolTip": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Models\\Cell.cs",
               "RelativeToolTip": "TicTocToeUsingFacade\\Models\\Cell.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:10:54.263Z"
+              "WhenOpened": "2024-10-19T14:10:54.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MarkType.cs",
               "DocumentMoniker": "C:\\Users\\Suraj\\OneDrive\\Desktop\\internship\\Tasks\\TicTocToeUsingFacade\\TicTocToeUsingFacade\\Models\\MarkType.cs",
               "RelativeDocumentMoniker": "TicTocToeUsingFacade\\Models\\MarkType.cs",
@@ -123,7 +128,8 @@
               "RelativeToolTip": "TicTocToeUsingFacade\\Models\\MarkType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:11:33.476Z"
+              "WhenOpened": "2024-10-19T14:11:33.476Z",
+              "EditorCaption": ""
             }
           ]
         }

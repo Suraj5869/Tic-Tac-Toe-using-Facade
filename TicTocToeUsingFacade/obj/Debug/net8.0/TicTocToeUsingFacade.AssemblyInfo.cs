@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicTocToeUsingFacade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f6639b720fc3daf3ed7d8f0345da59be2e8e09d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicTocToeUsingFacade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicTocToeUsingFacade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

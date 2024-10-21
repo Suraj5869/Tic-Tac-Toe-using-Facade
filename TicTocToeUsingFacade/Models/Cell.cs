@@ -35,14 +35,7 @@ namespace TicTocToeUsingFacade.Models
 
         public void SetMark(MarkType mark)
         {
-            if(_mark == MarkType.EMPTY)
-            {
-                _mark = mark;
-            }
-            else
-            {
-                throw new Exception("Cell is already full");
-            }
+            _mark = mark;
         }
 
         

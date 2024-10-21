@@ -13,7 +13,7 @@ namespace TicTocToeUsingFacade.Models
 
         public Board()
         {
-            for(int i = 0; i<9; i++)
+            for(int i = 0; i<cells.Length; i++)
             {
                 cells[i] = new Cell();
             }

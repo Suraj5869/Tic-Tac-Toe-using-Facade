@@ -16,46 +16,37 @@ namespace TicTocToeUsingFacade.Presentation
             
             for (int i = 0; i<9; i++)
             {
-                if (board.GetCellMark(i) == MarkType.EMPTY)
-                {
-                    Console.Write("   |");
-                }
-                else
-                {
-                    Console.Write($" {board.GetCellMark(i)} |");
-                }
-                if(i == 2 || i == 5)
-                {
-                    Console.WriteLine("\n------------");
-                }
+                PrintBoard(i, board);
+            }
+        }
+
+        private void PrintBoard(int i, Board board)
+        {
+            if (board.GetCellMark(i) == MarkType.EMPTY)
+            {
+                Console.Write("   |");
+            }
+            else
+            {
+                Console.Write($" {board.GetCellMark(i)} |");
+            }
+            if (i == 2 || i == 5)
+            {
+                Console.WriteLine("\n------------");
             }
         }
 
         public void StartGame(Player player1, Player player2, Board board, ResultAnalyzer analyzer)
         {
-            while (!board.IsBoardFull())
-            {   try
-                {
-                    player1.PlayGame(board);
-                    if (analyzer.CheckAll(board))
-                    {
-                        Console.WriteLine("Player 1 win the match");
-                        break;
-                    }
-                    DisplayBoard(board);
-                    player2.PlayGame(board);
-                    if (analyzer.CheckAll(board))
-                    {
-                        Console.WriteLine("Player 2 win the match");
-                        break;
-                    }
-                    DisplayBoard(board);
-                }
-                catch(CellAlreadyOccupiedException ce)
-                {
-                    Console.WriteLine(ce.Message);
-                }
+            try
+            {
+                PlayersMove(player1, player2, board, analyzer);
             }
+            catch (CellAlreadyOccupiedException ce)
+            {
+                Console.WriteLine(ce.Message);
+            }
+            
 
             Console.WriteLine("You want to play again:\n" +
                 "1. Yes\n" +
@@ -65,12 +56,34 @@ namespace TicTocToeUsingFacade.Presentation
             PlayAgain(choice);
         }
 
+        private void PlayersMove(Player player1, Player player2, Board board, ResultAnalyzer analyzer)
+        {
+            while (!board.IsBoardFull())
+            {
+                player1.PlayGame(board);
+                DisplayBoard(board);
+                if (analyzer.CheckAll(board))
+                {
+                    Console.WriteLine("\nPlayer 1 win the match");
+                    break;
+                }
+                player2.PlayGame(board);
+                DisplayBoard(board);
+                if (analyzer.CheckAll(board))
+                {
+                    Console.WriteLine("\nPlayer 2 win the match");
+                    break;
+                }
+            }
+        }
+
         private void PlayAgain(int choice)
         {
             switch(choice)
             {
                 case 1:
-                    ResetBoard();
+                    Console.Clear();
+                    StartBoard();
                     break;
                 case 2:
                     Environment.Exit(0);
@@ -78,19 +91,18 @@ namespace TicTocToeUsingFacade.Presentation
             }
         }
 
-        private void ResetBoard()
+        public void StartBoard()
         {
+            Console.WriteLine("~~~~~ Welcome to Tic-Tac-Toe Game ~~~~~");
             Board board = new Board();
 
             Player player1 = new Player(MarkType.X);
             Player player2 = new Player(MarkType.O);
 
-            GameGUI game = new GameGUI();
-
             ResultAnalyzer analyzer = new ResultAnalyzer();
 
-            game.DisplayBoard(board);
-            game.StartGame(player1, player2, board, analyzer);
+            DisplayBoard(board);
+            StartGame(player1, player2, board, analyzer);
         }
     }
 }
